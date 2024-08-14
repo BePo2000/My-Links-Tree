@@ -1,0 +1,131 @@
+/* Reset default margin and padding */
+body, h1, div, a, img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background styling */
+body {
+    background-color: rgba(255, 68, 0, 0.473);
+    background-image: linear-gradient(to top right, blue, rgb(179, 24, 158), transparent);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Container styling */
+section {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+
+/* Profile image styling */
+.img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.img:hover {
+    transform: scale(1.1); /* تكبير الصورة عند مرور الماوس */
+}
+
+/* Link container styling */
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1877f2;
+    width: 220px;
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 10px;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+div:hover {
+    background-color: #0056b3; /* تغيير لون الخلفية عند مرور الماوس */
+    transform: scale(1.05); /* تكبير الحاوية عند مرور الماوس */
+}
+
+.img1 {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.img1:hover {
+    transform: scale(1.2); /* تكبير الأيقونة عند مرور الماوس */
+}
+
+/* Text styling */
+b {
+    color: #fafafa;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+b:hover {
+    color: #ffeb3b; /* تغيير لون النص عند مرور الماوس */
+}
+
+/* Custom background colors for each div */
+.one {
+    background-image: linear-gradient(25deg, #0099ff, #5f5dff, #a033ff, #c740cc, #ff5280, #ff7061);
+}
+
+.tow {
+    background-image: linear-gradient(-135deg, #1400c8, #b900b4, #f50000);
+}
+
+.three {
+    background-color: #075e54;
+}
+
+.four {
+    background-color: #3faee8;
+}
+
+.five {
+    background-color: #2867b2;
+}
+
+.six {
+    background-color: #000000;
+}
+
+.seven {
+    background-color: #2457f5;
+}
+
+h1 {
+    h
+    color: aliceblue;
+    margin-bottom: 20px;
+    transition: color 0.3s ease-in-out;
+}
+
+h1:hover {
+    color: #ffeb3b; /* تغيير لون النص العنوان عند مرور الماوس */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #ffeb3b; /* تغيير لون النص في الروابط عند مرور الماوس */
+}
